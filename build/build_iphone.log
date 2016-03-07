@@ -1,0 +1,205 @@
+
+3/7/2016, 10:37:02 PM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.11.3
+  Architecture                = 64bit
+  # CPUs                      = 2
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 5.6.0
+  npm Version                 = 3.6.0
+
+Titanium CLI
+  CLI Version                 = 5.0.6
+
+Titanium SDK
+  SDK Version                 = 5.2.0.GA
+  SDK Path                    = /Users/rizkiwisnuaji/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/rizkiwisnuaji/.appcelerator/install/5.2.0/package/node_modules/titanium/lib/titanium.js build run --config-file /var/folders/rf/9h7xq0fd0dlc1mr35bwqykq40000gn/T/build-1457365015020.json --log-level info --no-banner --project-dir /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo
+
+[TRACE]  [ioslib] No iOS Simulator UDID specified, searching for best match
+[TRACE]  [ioslib] Scanning Xcodes: 7.2.1:7C1002
+[TRACE]  [ioslib] No app being installed, so picking first simulator
+[TRACE]  [ioslib] Autoselected iOS Simulator: iPhone 6s Plus
+[TRACE]  [ioslib]   UDID    = B07A9A35-6669-49AC-9FA2-0BAF98AF7385
+[TRACE]  [ioslib]   iOS     = 9.2
+[TRACE]  [ioslib] Autoselected Xcode: 7.2.1
+[DEBUG]  Detecting modules in /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules
+[DEBUG]  Detected android module: dk.napp.drawer 1.1.6 @ /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/android/dk.napp.drawer/1.1.6
+[DEBUG]  Detected iphone module: dk.napp.drawer 1.2.4 @ /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4
+[DEBUG]  Detecting modules in /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: facebook 4.0.5 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: facebook 5.0.0 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/android/facebook/5.0.0
+[DEBUG]  Detected android module: ti.cloudpush 3.4.1 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.1
+[DEBUG]  Detected android module: ti.map 2.3.4 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/android/ti.map/2.3.4
+[DEBUG]  Detected android module: ti.map 2.3.6 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/android/ti.map/2.3.6
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.10 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.10
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.0.0 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.0.0
+[DEBUG]  Detected iphone module: facebook 4.0.5 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5
+[DEBUG]  Detected iphone module: facebook 5.0.1 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/iphone/facebook/5.0.1
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.coremotion 2.0.0 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.0
+[DEBUG]  Detected iphone module: ti.map 2.5.2 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/iphone/ti.map/2.5.2
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.3 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.3
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.5 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.5
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  Looking for Titanium module id=dk.napp.drawer version=latest platform=iphone deploy-type=development
+[INFO]   Found Titanium module id=dk.napp.drawer version=1.2.4 platform=iphone deploy-type=development path=/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.9 platform=commonjs deploy-type=development path=/Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[INFO]   Found better matching module id=ti.cloud version=latest platform=commonjs deploy-type=development path=/Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.10
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/rizkiwisnuaji/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 9.2
+[INFO]   Building for iOS Simulator: iPhone 6s Plus
+[DEBUG]  UDID: B07A9A35-6669-49AC-9FA2-0BAF98AF7385
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 9.2
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[TRACE]  offline build file /var/folders/rf/9h7xq0fd0dlc1mr35bwqykq40000gn/T/build-8633a6adb629cef255259f6f9873b1fe08690020.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 24781.866 sec ago
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  Adding 1 native module library
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/titaniumkoo.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/titaniumkoo.entitlements
+[INFO]   Creating Info.plist
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/titaniumkoo_Prefix.pch
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/titaniumkoo.xcodeproj/xcshareddata/xcschemes/titaniumkoo.xcscheme
+[INFO]   Installing default LaunchScreen.storyboard
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/LaunchScreen.storyboard
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/debugger.plist
+[DEBUG]  Skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 29x29 app icon: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png
+[TRACE]  Found generated 58x58 app icon: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 40x40 app icon: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png
+[TRACE]  Found generated 80x80 app icon: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  Found generated 76x76 app icon: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png
+[TRACE]  Found generated 152x152 app icon: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png
+[TRACE]  Found generated 167x167 app icon: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-83.5@2x.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch logo image set
+[TRACE]  Found generated 320x320 launch logo: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~iphone.png
+[TRACE]  Found generated 374x374 launch logo: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~iphone.png
+[TRACE]  Found generated 621x621 launch logo: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@3x~iphone.png
+[TRACE]  Found generated 384x384 launch logo: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo~ipad.png
+[TRACE]  Found generated 1024x1024 launch logo: /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchLogo.imageset/LaunchLogo@2x~ipad.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchLogo.imageset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   App thinning disabled, skipping asset image sets
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/KS_nav_ui.png
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/KS_nav_ui.png => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/KS_nav_views.png
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/KS_nav_views.png => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/app.js.xml
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/app.js.xml => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/app.js.xml
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/iphone/Default-568h@2x.png => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/iphone/Default-667h@2x.png => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/iphone/Default-Landscape-736h@3x.png => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/iphone/Default-Landscape.png => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/iphone/Default-Landscape@2x.png => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/iphone/Default-Portrait-736h@3x.png => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/iphone/Default-Portrait.png => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/iphone/Default-Portrait@2x.png => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/iphone/Default@2x.png => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/app.js => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/app.js
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/database.js => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/database.js
+[DEBUG]  Overwriting /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.10/ti.cloud.js => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/ti.cloud.js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 2s 740ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6s Plus
+[TRACE]  [ioslib]   UDID    = B07A9A35-6669-49AC-9FA2-0BAF98AF7385
+[TRACE]  [ioslib]   iOS     = 9.2
+[TRACE]  [ioslib] Autoselected Xcode: 7.2.1
+[TRACE]  [ioslib] Removing old log file: /Users/rizkiwisnuaji/Library/Developer/CoreSimulator/Devices/B07A9A35-6669-49AC-9FA2-0BAF98AF7385/data/Containers/Data/Application/56C3D867-5B06-4DB5-ACB5-66AA2EF16D98/Documents/b1c13189-1482-4851-9666-7ba3d3444fe8.log
+[TRACE]  [ioslib] Tailing iPhone 6s Plus Simulator system log: /Users/rizkiwisnuaji/Library/Logs/CoreSimulator/B07A9A35-6669-49AC-9FA2-0BAF98AF7385/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown B07A9A35-6669-49AC-9FA2-0BAF98AF7385
+[TRACE]  [ioslib] iPhone 6s Plus Simulator was already shutdown
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID B07A9A35-6669-49AC-9FA2-0BAF98AF7385
+[TRACE]  [ioslib] iPhone 6s Plus Simulator started
+[TRACE]  [ioslib] Running: osascript "/Users/rizkiwisnuaji/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPhone 6s Plus Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install B07A9A35-6669-49AC-9FA2-0BAF98AF7385 /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch B07A9A35-6669-49AC-9FA2-0BAF98AF7385 com.comestoarra.titaniumkoo
+[TRACE]  [ioslib] App launched
+[TRACE]  [titaniumkoo] assertion failed: 15D21 13C75: libxpc.dylib + 58018 [3E9AE163-9A95-35D3-BA2C-2E7144498580]: 0x7d
+[TRACE]  [ioslib] Found application log file: /Users/rizkiwisnuaji/Library/Developer/CoreSimulator/Devices/B07A9A35-6669-49AC-9FA2-0BAF98AF7385/data/Containers/Data/Application/B545B2BC-CFD0-45AC-BAC2-68D9EEF0F2D5/Documents/b1c13189-1482-4851-9666-7ba3d3444fe8.log
