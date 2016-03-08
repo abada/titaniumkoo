@@ -5,7 +5,7 @@
 ###Requirements :
 
 1. Titanium SDK.
-2. Titanium Appceleratorl cli.
+2. Titanium Appcelerator cli.
 3. Titanium Studio / Sublime Text / Atom (IDE)
 
 ----------------------------------
