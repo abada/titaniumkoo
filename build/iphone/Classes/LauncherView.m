@@ -1,17 +1,15 @@
 /**
- * _titaniumkookoo _titaniumkookoo Mobile
- * Copyright (c) 2009-2010 by _titaniumkookoo, Inc. All Rights Reserved.
+ * Appcelerator Titanium Mobile
+ * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 
 
 // A good bit of this code was derived from the Three20 project
-// and was customized to work inside _titaniumkookoo
+// and was customized to work inside Titanium
 //
-// All modifications by _titaniumkookoo are licensed under 
+// All modifications by Appcelerator are licensed under 
 // the Apache License, Version 2.0
 //
 //

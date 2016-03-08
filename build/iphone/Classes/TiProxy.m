@@ -1,10 +1,8 @@
 /**
- * _titaniumkookoo _titaniumkookoo Mobile
- * Copyright (c) 2009-2010 by _titaniumkookoo, Inc. All Rights Reserved.
+ * Appcelerator Titanium Mobile
+ * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 
 #import <objc/runtime.h>
@@ -34,7 +32,7 @@ NSString * const TiExceptionOSError = @"The iOS reported an error";
 //Should be rare, but also useful if arguments are used improperly.
 NSString * const TiExceptionInternalInconsistency = @"Value was not the value expected";
 
-//Rare exceptions to indicate a bug in the _titaniumkoo code (Eg, method that a subclass should have implemented)
+//Rare exceptions to indicate a bug in the titanium code (Eg, method that a subclass should have implemented)
 NSString * const TiExceptionUnimplementedFunction = @"Subclass did not implement required method";
 
 NSString * const TiExceptionMemoryFailure = @"Memory allocation failed";
@@ -1322,15 +1320,15 @@ DEFINE_EXCEPTIONS
 	});
 	Class proxyClass = (Class)CFDictionaryGetValue(classNameLookup, qualifiedName);
 	if (proxyClass == nil) {
-		NSString *_titaniumkoo = [NSString stringWithFormat:@"%@%s",@"Ti","tanium."];
-		if ([qualifiedName hasPrefix:_titaniumkoo]) {
+		NSString *titanium = [NSString stringWithFormat:@"%@%s",@"Ti","tanium."];
+		if ([qualifiedName hasPrefix:titanium]) {
 			qualifiedName = [qualifiedName stringByReplacingCharactersInRange:NSMakeRange(2, 6) withString:@""];
 		}
 		NSString *className = [[qualifiedName stringByReplacingOccurrencesOfString:@"." withString:@""] stringByAppendingString:@"Proxy"];
 		proxyClass = NSClassFromString(className);
 		if (proxyClass==nil) {
 			DebugLog(@"[WARN] Attempted to load %@: Could not find class definition.", className);
-			@throw [NSException exceptionWithName:@"org.titaniumkoo.module"
+			@throw [NSException exceptionWithName:@"org.appcelerator.module"
 										reason:[NSString stringWithFormat:@"Class not found: %@", qualifiedName]
 										userInfo:nil];
 		}

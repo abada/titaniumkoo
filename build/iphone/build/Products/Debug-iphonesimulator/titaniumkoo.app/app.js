@@ -33,7 +33,6 @@ function init(callback) {
 
     //define our search bar which will attach to our table view
     var searchBarHome = Ti.UI.createSearchBar({
-        showCancel: true,
         height: 43,
         top: 0
     });
@@ -42,6 +41,7 @@ function init(callback) {
     searchBarHome.addEventListener('change', function(e) {
         //search the tableview as user types
         //console.log('user searching for: ' + e.value);
+        searchBarHome.showCancel = true;
     });
 
     //when the return key is hit, remove focus from

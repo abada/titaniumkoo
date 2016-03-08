@@ -3213,7 +3213,7 @@
 	"copyright": "2016 by rizkiwisnuaji",
 	"guid": "b1c13189-1482-4851-9666-7ba3d3444fe8",
 	"useAppThinning": false,
-	"skipJSMinification": false,
+	"skipJSMinification": true,
 	"encryptJS": false,
 	"useJSCore": false,
 	"runOnMainThread": false,

@@ -1,10 +1,8 @@
 /**
- * _titaniumkookoo _titaniumkookoo Mobile
- * Copyright (c) 2009-2010 by _titaniumkookoo, Inc. All Rights Reserved.
+ * Appcelerator Titanium Mobile
+ * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #import "TiButtonUtil.h"
 #import "TiBase.h"
@@ -16,23 +14,23 @@
 {
 	switch (type)
 	{
-		case UI_titaniumkookooNativeItemInfoLight:
+		case UITitaniumNativeItemInfoLight:
 		{
 			return [UIButton buttonWithType:UIButtonTypeInfoLight];
 		}
-		case UI_titaniumkookooNativeItemInfoDark:
+		case UITitaniumNativeItemInfoDark:
 		{
 			return [UIButton buttonWithType:UIButtonTypeInfoDark];
 		}
-		case UI_titaniumkookooNativeItemDisclosure:
+		case UITitaniumNativeItemDisclosure:
 		{
 			return [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
 		}
-		case UI_titaniumkookooNativeItemContactAdd:
+		case UITitaniumNativeItemContactAdd:
 		{
 			return [UIButton buttonWithType:UIButtonTypeContactAdd];
 		}
-		case UI_titaniumkookooNativeItemSpinner:
+		case UITitaniumNativeItemSpinner:
 		{
 			UIActivityIndicatorView *button = [[[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite] autorelease];
 			[button startAnimating];

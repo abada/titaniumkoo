@@ -1,10 +1,8 @@
 /**
- * _titaniumkookoo _titaniumkookoo Mobile
- * Copyright (c) 2009-2010 by _titaniumkookoo, Inc. All Rights Reserved.
+ * Appcelerator Titanium Mobile
+ * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #import "TiProxy.h"
 #import "TiUtils.h"
@@ -13,7 +11,7 @@
 @class TiHost;
 
 /**
- The base class for all _titaniumkookoo modules
+ The base class for all Titanium modules
  */
 @interface TiModule : TiProxy 
 {
@@ -51,30 +49,30 @@
 // lifecycle
 
 /**
- _titaniumkookoo Platform calls this method on startup.
+ Titanium Platform calls this method on startup.
  */
 -(void)startup;
 
 /**
- _titaniumkookoo Platform calls this method on shutdown.
+ Titanium Platform calls this method on shutdown.
  @param sender The sender of the event.
  */
 -(void)shutdown:(id)sender;
 
 /**
- _titaniumkookoo Platform calls this method on suspend.
+ Titanium Platform calls this method on suspend.
  @param sender The sender of the event.
  */
 -(void)suspend:(id)sender;
 
 /**
- _titaniumkookoo Platform calls this method on entering background.
+ Titanium Platform calls this method on entering background.
  @param sender The sender of the event.
  */
 -(void)paused:(id)sender;
 
 /**
- _titaniumkookoo Platform calls this method on resume.
+ Titanium Platform calls this method on resume.
  @param sender The sender of the event.
  */
 -(void)resume:(id)sender;

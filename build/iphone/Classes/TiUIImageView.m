@@ -1,10 +1,8 @@
 /**
- * _titaniumkookoo _titaniumkookoo Mobile
- * Copyright (c) 2009-2010 by _titaniumkookoo, Inc. All Rights Reserved.
+ * Appcelerator Titanium Mobile
+ * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #ifdef USE_TI_UIIMAGEVIEW
 
@@ -455,7 +453,7 @@ DEFINE_EXCEPTIONS
 -(void)loadDefaultImage:(CGSize)imageSize
 {
     // use a placeholder image - which the dev can specify with the
-    // defaultImage property or we'll provide the _titaniumkookoo stock one
+    // defaultImage property or we'll provide the Titanium stock one
     // if not specified
     NSURL *defURL = [TiUtils toURL:[self.proxy valueForKey:@"defaultImage"] proxy:self.proxy];
     

@@ -1,6 +1,6 @@
 /**
- * _titaniumkookoo _titaniumkookoo Mobile Profiler
- * Copyright (c) 2013-2014 by _titaniumkookoo, Inc. All Rights Reserved.
+ * Appcelerator Titanium Mobile Profiler
+ * Copyright (c) 2013-2014 by Appcelerator, Inc. All Rights Reserved.
  * Proprietary and Confidential - This source code is not for redistribution
  */
 #import "TiToJS.h"

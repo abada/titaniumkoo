@@ -1,10 +1,8 @@
 /**
- * _titaniumkookoo _titaniumkookoo Mobile
- * Copyright (c) 2009-2015 by _titaniumkookoo, Inc. All Rights Reserved.
+ * Appcelerator Titanium Mobile
+ * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -60,7 +58,7 @@ extern "C" {
 	#define KMETHOD_DEBUG MEMORY_DEBUG
 #endif
 
-// in simulator we redefine to format for _titaniumkookoo Developer console
+// in simulator we redefine to format for Titanium Developer console
 
 
 #define TI_INLINE static __inline__
@@ -309,13 +307,13 @@ void TiExceptionThrowWithNameAndReason(NSString *exceptionName, NSString *reason
 #define DEFINE_EXCEPTIONS \
 - (void) throwException:(NSString *) reason subreason:(NSString*)subreason location:(NSString *)location\
 {\
-	NSString * exceptionName = [@"org.titaniumkoo." stringByAppendingString:NSStringFromClass([self class])];\
+	NSString * exceptionName = [@"org.appcelerator." stringByAppendingString:NSStringFromClass([self class])];\
 	TiExceptionThrowWithNameAndReason(exceptionName,reason,subreason,location);\
 }\
 \
 + (void) throwException:(NSString *) reason subreason:(NSString*)subreason location:(NSString *)location\
 {\
-	NSString * exceptionName = @"org.titaniumkoo";\
+	NSString * exceptionName = @"org.appcelerator";\
 	TiExceptionThrowWithNameAndReason(exceptionName,reason,subreason,location);\
 }\
 
@@ -426,28 +424,28 @@ DebugLog(@"[WARN] Ti.%@ DEPRECATED in %@, in favor of Ti.%@",api,in,newapi);
 
  //MUST BE NEGATIVE, as it inhabits the same space as UIBarButtonSystemItem
 enum {
-	UI_titaniumkookooNativeItemNone = -1, 
-	UI_titaniumkookooNativeItemSpinner = -2,
-	UI_titaniumkookooNativeItemProgressBar = -3,
+	UITitaniumNativeItemNone = -1, 
+	UITitaniumNativeItemSpinner = -2,
+	UITitaniumNativeItemProgressBar = -3,
 	
-	UI_titaniumkookooNativeItemSlider = -4,
-	UI_titaniumkookooNativeItemSwitch = -5,
-	UI_titaniumkookooNativeItemMultiButton = -6,
-	UI_titaniumkookooNativeItemSegmented = -7,
+	UITitaniumNativeItemSlider = -4,
+	UITitaniumNativeItemSwitch = -5,
+	UITitaniumNativeItemMultiButton = -6,
+	UITitaniumNativeItemSegmented = -7,
 	
-	UI_titaniumkookooNativeItemTextView = -8,
-	UI_titaniumkookooNativeItemTextField = -9,
-	UI_titaniumkookooNativeItemSearchBar = -10,
+	UITitaniumNativeItemTextView = -8,
+	UITitaniumNativeItemTextField = -9,
+	UITitaniumNativeItemSearchBar = -10,
 	
-	UI_titaniumkookooNativeItemPicker = -11,
-	UI_titaniumkookooNativeItemDatePicker = -12,
+	UITitaniumNativeItemPicker = -11,
+	UITitaniumNativeItemDatePicker = -12,
 	
-	UI_titaniumkookooNativeItemInfoLight = -13,
-	UI_titaniumkookooNativeItemInfoDark = -14,
+	UITitaniumNativeItemInfoLight = -13,
+	UITitaniumNativeItemInfoDark = -14,
 	
-	UI_titaniumkookooNativeItemDisclosure = -15,
+	UITitaniumNativeItemDisclosure = -15,
 	
-	UI_titaniumkookooNativeItemContactAdd = -16
+	UITitaniumNativeItemContactAdd = -16
 };
 
 
@@ -634,7 +632,7 @@ void incrementKrollCounter();
 void decrementKrollCounter();
 #endif
 /**
- *	TiThreadPerformOnMainThread should replace all _titaniumkookoo instances of
+ *	TiThreadPerformOnMainThread should replace all Titanium instances of
  *	performSelectorOnMainThread, ESPECIALLY if wait is to be yes. That way,
  *	exceptional-case main thread activities can process them outside of the
  *	standard event loop.

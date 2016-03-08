@@ -1,10 +1,8 @@
 /**
- * _titaniumkookoo _titaniumkookoo Mobile
- * Copyright (c) 2009-2015 by _titaniumkookoo, Inc. All Rights Reserved.
+ * Appcelerator Titanium Mobile
+ * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 
 #import "TiAppiOSUserActivityProxy.h"
@@ -17,7 +15,7 @@
 
 @implementation TiAppiOSUserActivityProxy
 
-#pragma mark _titaniumkookoo Proxy components
+#pragma mark Titanium Proxy components
 
 -(NSString*)apiName
 {
@@ -199,7 +197,7 @@
 - (void)userActivityWillSave:(NSUserActivity *)userActivity
 {
     if([self _hasListeners:@"useractivitywillsave"]){
-        DebugLog(@"[WARN] _titaniumkookoo.App.iOS.UserActivity.useractivitywillsave event is deprecated. Update user activity and then set _titaniumkookoo.App.iOS.UserActivity.needsSave property to true if you need it to be saved before handing it off to another device.");
+        DebugLog(@"[WARN] Titanium.App.iOS.UserActivity.useractivitywillsave event is deprecated. Update user activity and then set Titanium.App.iOS.UserActivity.needsSave property to true if you need it to be saved before handing it off to another device.");
         [self fireEvent:@"useractivitywillsave" withObject:[[self copyActivity] autorelease]];
     }
 }

@@ -1,10 +1,8 @@
 /**
- * _titaniumkookoo _titaniumkookoo Mobile
- * Copyright (c) 2009-2015 by _titaniumkookoo, Inc. All Rights Reserved.
+ * Appcelerator Titanium Mobile
+ * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #include <stdio.h>
 
@@ -1113,8 +1111,8 @@ expectedTotalBytes:(int64_t)expectedTotalBytes {
 		UIDevice *currentDevice = [UIDevice currentDevice];
 		NSString *currentLocaleIdentifier = [[NSLocale currentLocale] localeIdentifier];
 		NSString *currentDeviceInfo = [NSString stringWithFormat:@"%@/%@; %@; %@;",[currentDevice model],[currentDevice systemVersion],[currentDevice systemName],currentLocaleIdentifier];
-		NSString *k_titaniumkookooUserAgentPrefix = [NSString stringWithFormat:@"%s%s%s %s%s","Appc","eler","ator","Tita","nium"];
-		userAgent = [[NSString stringWithFormat:@"%@/%s (%@)",k_titaniumkookooUserAgentPrefix,TI_VERSION_STR,currentDeviceInfo] retain];
+		NSString *kTitaniumUserAgentPrefix = [NSString stringWithFormat:@"%s%s%s %s%s","Appc","eler","ator","Tita","nium"];
+		userAgent = [[NSString stringWithFormat:@"%@/%s (%@)",kTitaniumUserAgentPrefix,TI_VERSION_STR,currentDeviceInfo] retain];
 	}
 	return userAgent;
 }
@@ -1317,7 +1315,7 @@ performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem
             errorString = [error localizedDescription];
         } else {
             // If we have no data...
-            // This should never happen on a _titaniumkookoo app using the node.js CLI
+            // This should never happen on a Titanium app using the node.js CLI
             errorString = @"File not found";
         }
         if(errorString != nil) {

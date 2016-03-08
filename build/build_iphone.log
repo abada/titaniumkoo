@@ -1,5 +1,5 @@
 
-3/7/2016, 10:37:02 PM
+3/8/2016, 11:42:28 AM
 
 Operating System
   Name                        = Mac OS X
@@ -21,13 +21,12 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/rizkiwisnuaji/.appcelerator/install/5.2.0/package/node_modules/titanium/lib/titanium.js build run --config-file /var/folders/rf/9h7xq0fd0dlc1mr35bwqykq40000gn/T/build-1457365015020.json --log-level info --no-banner --project-dir /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo
+  /usr/local/bin/node /Users/rizkiwisnuaji/.appcelerator/install/5.2.0/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.2.0.GA --project-dir /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo --target simulator --ios-version 9.2 --device-family universal --deploy-type development --sim-type iphone --sim-version 9.2 --device-id FC1C74D4-32B9-4932-B75A-9176E29377BE --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 65024 --config-file /var/folders/rf/9h7xq0fd0dlc1mr35bwqykq40000gn/T/build-1457412144856.json --no-banner --project-dir /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo
 
-[TRACE]  [ioslib] No iOS Simulator UDID specified, searching for best match
-[TRACE]  [ioslib] Scanning Xcodes: 7.2.1:7C1002
-[TRACE]  [ioslib] No app being installed, so picking first simulator
-[TRACE]  [ioslib] Autoselected iOS Simulator: iPhone 6s Plus
-[TRACE]  [ioslib]   UDID    = B07A9A35-6669-49AC-9FA2-0BAF98AF7385
+[TRACE]  [ioslib] Validating iOS Simulator UDID FC1C74D4-32B9-4932-B75A-9176E29377BE
+[TRACE]  [ioslib] Found iOS Simulator UDID FC1C74D4-32B9-4932-B75A-9176E29377BE
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 4s
+[TRACE]  [ioslib]   UDID    = FC1C74D4-32B9-4932-B75A-9176E29377BE
 [TRACE]  [ioslib]   iOS     = 9.2
 [TRACE]  [ioslib] Autoselected Xcode: 7.2.1
 [DEBUG]  Detecting modules in /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules
@@ -61,8 +60,8 @@ Command
 [INFO]   Deploy type: development
 [INFO]   Building for target: simulator
 [INFO]   Building using iOS SDK: 9.2
-[INFO]   Building for iOS Simulator: iPhone 6s Plus
-[DEBUG]  UDID: B07A9A35-6669-49AC-9FA2-0BAF98AF7385
+[INFO]   Building for iOS Simulator: iPhone 4s
+[DEBUG]  UDID: FC1C74D4-32B9-4932-B75A-9176E29377BE
 [DEBUG]  Simulator type: iphone
 [DEBUG]  Simulator version: 9.2
 [INFO]   Building for device family: universal
@@ -77,7 +76,7 @@ Command
 [INFO]   Initializing the build directory
 [TRACE]  offline build file /var/folders/rf/9h7xq0fd0dlc1mr35bwqykq40000gn/T/build-8633a6adb629cef255259f6f9873b1fe08690020.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 24781.866 sec ago
+[TRACE]  optimizing build, last build was 1120.723 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  Adding 1 native module library
@@ -165,13 +164,14 @@ Command
 [DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/iphone/Default@2x.png => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
 [DEBUG]  Copying CSS files
 [INFO]   Processing JavaScript files
-[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/app.js => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/app.js
-[DEBUG]  Overwriting /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/database.js => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/database.js
-[DEBUG]  Overwriting /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.10/ti.cloud.js => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/ti.cloud.js
+[DEBUG]  Copying /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/app.js => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/app.js
+[DEBUG]  Copying /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/Resources/database.js => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/database.js
+[DEBUG]  Copying /Users/rizkiwisnuaji/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.10/ti.cloud.js => /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/ti.cloud.js
 [INFO]   Writing app properties
-[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/_app_props_.json
+[DEBUG]  Writing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/_app_props_.json
 [DEBUG]  Using default application routing
-[TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Forcing rebuild: Classes/ApplicationRouting.m has changed since last build
+[DEBUG]  Writing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Classes/ApplicationRouting.m
 [INFO]   Writing i18n files
 [DEBUG]  No i18n files to process
 [INFO]   Processing Titanium symbols
@@ -181,25 +181,910 @@ Command
 [TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/modules/ui/images/photoDefault.png
 [TRACE]  No change, skipping /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Classes/defines.h
 [INFO]   Removing files
+[DEBUG]  Removing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/assets/_app_props__json
+[DEBUG]  Removing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/assets/app_js
+[DEBUG]  Removing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/assets/database_js
+[DEBUG]  Removing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/assets/ti_cloud_js
 [DEBUG]  Removing empty directories
-[INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 2s 740ms
+[INFO]   Invoking xcodebuild
+[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target titaniumkoo -configuration Debug -scheme titaniumkoo -derivedDataPath /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone OBJROOT=/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates SHARED_PRECOMPS_DIR=/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/PrecompiledHeaders SYMROOT=/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products -destination "platform=iOS Simulator,id=FC1C74D4-32B9-4932-B75A-9176E29377BE,OS=9.2"
+[TRACE]  User defaults from command line:
+[TRACE]      IDEDerivedDataPathOverride = /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone
+[TRACE]  Build settings from command line:
+[TRACE]      OBJROOT = /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates
+[TRACE]      SHARED_PRECOMPS_DIR = /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/PrecompiledHeaders
+[TRACE]      SYMROOT = /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products
+[TRACE]  
+[TRACE]  === BUILD TARGET titaniumkoo OF PROJECT titaniumkoo WITH CONFIGURATION Debug ===
+[TRACE]  Check dependencies
+[TRACE]  
+[TRACE]  CompileC build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/i386/ApplicationRouting.o Classes/ApplicationRouting.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+[TRACE]      cd /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone
+[TRACE]      export LANG=en_US.US-ASCII
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fmodules -gmodules -fmodules-cache-path=/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEPLOYTYPE=development -D__LOG__ID__=b1c13189-1482-4851-9666-7ba3d3444fe8 -DDEBUG=1 -DTI_VERSION=5.2.0 -DDEFAULT_BGCOLOR_RED=1 -DDEFAULT_BGCOLOR_GREEN=1 -DDEFAULT_BGCOLOR_BLUE=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mios-simulator-version-min=7.1 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/titaniumkoo-generated-files.hmap -I/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/titaniumkoo-own-target-headers.hmap -I/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/titaniumkoo-all-target-headers.hmap -iquote /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/titaniumkoo-project-headers.hmap -I/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/usr/include/libxml2 -Iheaders -I/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/DerivedSources/i386 -I/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/DerivedSources -F/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator -DDEBUG -include /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/PrecompiledHeaders/titaniumkoo_Prefix-baunjrdlptzqnqeeobhirhnesypt/titaniumkoo_Prefix.pch -MMD -MT dependencies -MF /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/i386/ApplicationRouting.d --serialize-diagnostics /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/i386/ApplicationRouting.dia -c /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Classes/ApplicationRouting.m -o /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/i386/ApplicationRouting.o
+[TRACE]  
+[TRACE]  CompileC build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/x86_64/ApplicationRouting.o Classes/ApplicationRouting.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+[TRACE]      cd /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone
+[TRACE]      export LANG=en_US.US-ASCII
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fmodules -gmodules -fmodules-cache-path=/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEPLOYTYPE=development -D__LOG__ID__=b1c13189-1482-4851-9666-7ba3d3444fe8 -DDEBUG=1 -DTI_VERSION=5.2.0 -DDEFAULT_BGCOLOR_RED=1 -DDEFAULT_BGCOLOR_GREEN=1 -DDEFAULT_BGCOLOR_BLUE=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mios-simulator-version-min=7.1 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/titaniumkoo-generated-files.hmap -I/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/titaniumkoo-own-target-headers.hmap -I/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/titaniumkoo-all-target-headers.hmap -iquote /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/titaniumkoo-project-headers.hmap -I/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/usr/include/libxml2 -Iheaders -I/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/DerivedSources/x86_64 -I/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/DerivedSources -F/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator -DDEBUG -include /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/PrecompiledHeaders/titaniumkoo_Prefix-bupryblojseeltdrklvhxayxkvkg/titaniumkoo_Prefix.pch -MMD -MT dependencies -MF /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/x86_64/ApplicationRouting.d --serialize-diagnostics /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/x86_64/ApplicationRouting.dia -c /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Classes/ApplicationRouting.m -o /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/x86_64/ApplicationRouting.o
+[TRACE]  
+[TRACE]  CompileAssetCatalog build/Products/Debug-iphonesimulator/titaniumkoo.app Assets.xcassets
+[TRACE]      cd /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/assetcatalog_dependencies --output-partial-info-plist /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --compress-pngs --enable-on-demand-resources YES --filter-for-device-model iPhone4,1 --filter-for-device-os-version 9.2 --target-device iphone --target-device ipad --minimum-deployment-target 7.1 --platform iphonesimulator --compile /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets
+[TRACE]  /* com.apple.actool.document.notices */
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][landscape][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][667h][2x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /* com.apple.actool.compilation-results */
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/AppIcon29x29@2x.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/AppIcon29x29@3x.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/AppIcon40x40@2x.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/AppIcon40x40@3x.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/AppIcon60x60@2x.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/AppIcon60x60@3x.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/AppIcon29x29~ipad.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/AppIcon29x29@2x~ipad.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/AppIcon40x40~ipad.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/AppIcon40x40@2x~ipad.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/AppIcon76x76~ipad.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/AppIcon76x76@2x~ipad.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/AppIcon83.5x83.5@2x~ipad.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/LaunchImage-800-Portrait-736h@3x.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/LaunchImage-800-Landscape-736h@3x.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/LaunchImage-800-667h@2x.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/LaunchImage-700@2x.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/LaunchImage-700-568h@2x.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/LaunchImage-700-Portrait~ipad.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/LaunchImage-700-Landscape~ipad.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/LaunchImage-700-Portrait@2x~ipad.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/LaunchImage-700-Landscape@2x~ipad.png
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/Assets.car
+[TRACE]  /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/assetcatalog_generated_info.plist
+[TRACE]  
+[TRACE]  ProcessInfoPlistFile build/Products/Debug-iphonesimulator/titaniumkoo.app/Info.plist Info.plist
+[TRACE]      cd /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+[TRACE]      builtin-infoPlistUtility /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Info.plist -genpkginfo /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/LaunchScreen-SBPartialInfo.plist -additionalcontentfile /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/assetcatalog_generated_info.plist -o /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/Info.plist
+[TRACE]  
+[TRACE]  ProcessProductPackaging titaniumkoo.entitlements build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/titaniumkoo.app.xcent
+[TRACE]      cd /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+[TRACE]      builtin-productPackagingUtility /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/titaniumkoo.entitlements -entitlements -format xml -o /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/titaniumkoo.app.xcent
+[TRACE]  
+[TRACE]  Ld build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/i386/titaniumkoo normal i386
+[TRACE]      cd /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone
+[TRACE]      export IPHONEOS_DEPLOYMENT_TARGET=7.1
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -L/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator -L/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/lib -L/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Classes/APSAnalytics -L/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Classes/APSHTTPClient -L/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4 -F/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator -filelist /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/i386/titaniumkoo.LinkFileList -mios-simulator-version-min=7.1 -dead_strip -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework QuartzCore -framework QuartzCore -weak-lti_ios_profiler -weak-lti_ios_debugger -weak-lTiCore -weak_framework Contacts -weak_framework ContactsUI -weak_framework WatchConnectivity -weak_framework CoreSpotlight -fobjc-link-runtime -stdlib=libc++ -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/titaniumkoo.app.xcent -weak_framework iAd -framework CoreMedia -weak_framework CoreMotion -lAPSAnalytics -weak_framework CoreText -framework EventKit -framework EventKitUI -weak_framework Security -licucore -framework Foundation -weak_framework UIKit -framework CoreGraphics -weak_framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -weak_framework MapKit -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework SystemConfiguration -lsqlite3 -lz -framework AudioToolbox -weak_framework MediaPlayer -framework AVFoundation -lxml2 -framework StoreKit -lAPSHTTPClient -framework ExternalAccessory -ltiverify -ldk.napp.drawer -Xlinker -dependency_info -Xlinker /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/i386/titaniumkoo_dependency_info.dat -o /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/i386/titaniumkoo
+[TRACE]  
+[TRACE]  Ld build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/x86_64/titaniumkoo normal x86_64
+[TRACE]      cd /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone
+[TRACE]      export IPHONEOS_DEPLOYMENT_TARGET=7.1
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -L/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator -L/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/lib -L/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Classes/APSAnalytics -L/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/Classes/APSHTTPClient -L/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4 -F/Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator -filelist /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/x86_64/titaniumkoo.LinkFileList -mios-simulator-version-min=7.1 -dead_strip -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework QuartzCore -framework QuartzCore -weak-lti_ios_profiler -weak-lti_ios_debugger -weak-lTiCore -weak_framework Contacts -weak_framework ContactsUI -weak_framework WatchConnectivity -weak_framework CoreSpotlight -fobjc-link-runtime -stdlib=libc++ -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/titaniumkoo.app.xcent -weak_framework iAd -framework CoreMedia -weak_framework CoreMotion -lAPSAnalytics -weak_framework CoreText -framework EventKit -framework EventKitUI -weak_framework Security -licucore -framework Foundation -weak_framework UIKit -framework CoreGraphics -weak_framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -weak_framework MapKit -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework SystemConfiguration -lsqlite3 -lz -framework AudioToolbox -weak_framework MediaPlayer -framework AVFoundation -lxml2 -framework StoreKit -lAPSHTTPClient -framework ExternalAccessory -ltiverify -ldk.napp.drawer -Xlinker -dependency_info -Xlinker /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/x86_64/titaniumkoo_dependency_info.dat -o /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/x86_64/titaniumkoo
+[TRACE]  
+[TRACE]  CreateUniversalBinary build/Products/Debug-iphonesimulator/titaniumkoo.app/titaniumkoo normal i386\ x86_64
+[TRACE]      cd /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/i386/titaniumkoo /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Intermediates/titaniumkoo.build/Debug-iphonesimulator/titaniumkoo.build/Objects-normal/x86_64/titaniumkoo -output /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/titaniumkoo
+[TRACE]  
+[TRACE]  GenerateDSYMFile build/Products/Debug-iphonesimulator/titaniumkoo.app.dSYM build/Products/Debug-iphonesimulator/titaniumkoo.app/titaniumkoo
+[TRACE]      cd /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/titaniumkoo -o /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app.dSYM
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hggcwlvqzjvkzkdqepeyjgnmbcsy/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hggcwlvqzjvkzkdqepeyjgnmbcsy/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSRecursiveLock
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSCondition
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSURL
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:@S@_opaque_pthread_rwlock_t
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSNumber
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSNotification
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hggcwlvqzjvkzkdqepeyjgnmbcsy/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hggcwlvqzjvkzkdqepeyjgnmbcsy/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSBundle
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ggaychstaplppqagebfekhtjmavo/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ggaychstaplppqagebfekhtjmavo/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSBundle
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSURL
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSSet
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSCoder
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSNumber
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ggaychstaplppqagebfekhtjmavo/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ggaychstaplppqagebfekhtjmavo/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSBundle
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ggaychstaplppqagebfekhtjmavo/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ggaychstaplppqagebfekhtjmavo/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSBundle
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModuleAssets.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hggcwlvqzjvkzkdqepeyjgnmbcsy/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModuleAssets.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hggcwlvqzjvkzkdqepeyjgnmbcsy/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModuleAssets.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModuleAssets.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSData
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModuleAssets.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hggcwlvqzjvkzkdqepeyjgnmbcsy/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hggcwlvqzjvkzkdqepeyjgnmbcsy/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSRecursiveLock
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSCondition
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSURL
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:@S@_opaque_pthread_rwlock_t
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSNumber
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSSet
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSBundle
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hggcwlvqzjvkzkdqepeyjgnmbcsy/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hggcwlvqzjvkzkdqepeyjgnmbcsy/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSBundle
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSURL
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSSet
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSNumber
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSRecursiveLock
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSCondition
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:@S@_opaque_pthread_rwlock_t
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSNotification
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hggcwlvqzjvkzkdqepeyjgnmbcsy/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hggcwlvqzjvkzkdqepeyjgnmbcsy/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSBundle
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ggaychstaplppqagebfekhtjmavo/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ggaychstaplppqagebfekhtjmavo/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSURL
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSAttributedString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSSet
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSCoder
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hhudlspsvkmodhboqnbtiiqpkdlu/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hhudlspsvkmodhboqnbtiiqpkdlu/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSRecursiveLock
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSCondition
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSURL
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:@S@_opaque_pthread_rwlock_t
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSNumber
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModule.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSNotification
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hhudlspsvkmodhboqnbtiiqpkdlu/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hhudlspsvkmodhboqnbtiiqpkdlu/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSBundle
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(CustomMMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ghurdktretzcakaaikedfmkmmysq/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ghurdktretzcakaaikedfmkmmysq/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSBundle
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSURL
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSSet
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSCoder
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSNumber
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ghurdktretzcakaaikedfmkmmysq/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ghurdktretzcakaaikedfmkmmysq/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSBundle
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(UIViewController+MMDrawerController.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ghurdktretzcakaaikedfmkmmysq/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ghurdktretzcakaaikedfmkmmysq/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSBundle
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModuleAssets.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hhudlspsvkmodhboqnbtiiqpkdlu/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModuleAssets.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hhudlspsvkmodhboqnbtiiqpkdlu/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModuleAssets.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModuleAssets.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSData
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerModuleAssets.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hhudlspsvkmodhboqnbtiiqpkdlu/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hhudlspsvkmodhboqnbtiiqpkdlu/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSRecursiveLock
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSCondition
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSURL
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:@S@_opaque_pthread_rwlock_t
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSNumber
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSSet
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSBundle
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawerProxy.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hhudlspsvkmodhboqnbtiiqpkdlu/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hhudlspsvkmodhboqnbtiiqpkdlu/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSBundle
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSURL
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSSet
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSNumber
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSRecursiveLock
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSCondition
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:@S@_opaque_pthread_rwlock_t
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(DkNappDrawerDrawer.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSNotification
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hhudlspsvkmodhboqnbtiiqpkdlu/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-hhudlspsvkmodhboqnbtiiqpkdlu/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSBundle
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(NappDrawerVisualState.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ghurdktretzcakaaikedfmkmmysq/DkNappDrawer_Prefix.pch.pch: No such file or directory
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: /var/folders/yv/gl6_zqmj7ng870ln0vg15f1r0000gp/C/com.apple.DeveloperTools/7.2-7C68/Xcode/SharedPrecompiledHeaders/DkNappDrawer_Prefix-ghurdktretzcakaaikedfmkmmysq/DkNappDrawer_Prefix.pch.pch: No object file for requested architecture
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSDictionary
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSURL
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSArray
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSUndoManager
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSAttributedString
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSSet
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
+[TRACE]  while processing /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/modules/iphone/dk.napp.drawer/1.2.4/libdk.napp.drawer.a(MMDrawerBarButtonItem.o):
+[TRACE]  warning: Could not resolve external type c:objc(cs)NSCoder
+[TRACE]  Showing first 200 warnings only
+[TRACE]  
+[TRACE]  CopySwiftLibs build/Products/Debug-iphonesimulator/titaniumkoo.app
+[TRACE]      cd /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone
+[TRACE]      export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-stdlib-tool --copy --verbose --scan-executable /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/titaniumkoo --scan-folder /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/Frameworks --scan-folder /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/PlugIns --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/iAd.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/CoreMedia.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/CoreMotion.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/CoreText.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/EventKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/EventKitUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/Security.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/Foundation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/UIKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/CoreGraphics.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/AddressBook.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/AddressBookUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/CFNetwork.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/CoreLocation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/MapKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/MessageUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/MobileCoreServices.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/OpenGLES.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/QuartzCore.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/SystemConfiguration.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/AudioToolbox.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/MediaPlayer.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/AVFoundation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/StoreKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/ExternalAccessory.framework --platform iphonesimulator --destination /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app/Frameworks --strip-bitcode
+[TRACE]  
+[TRACE]  Touch build/Products/Debug-iphonesimulator/titaniumkoo.app
+[TRACE]      cd /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+[TRACE]      /usr/bin/touch -c /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app
+[TRACE]  
+[TRACE]  ** BUILD SUCCEEDED **
+[INFO]   Finished building the application in 19s 553ms
 [INFO]   Launching iOS Simulator
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6s Plus
-[TRACE]  [ioslib]   UDID    = B07A9A35-6669-49AC-9FA2-0BAF98AF7385
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 4s
+[TRACE]  [ioslib]   UDID    = FC1C74D4-32B9-4932-B75A-9176E29377BE
 [TRACE]  [ioslib]   iOS     = 9.2
 [TRACE]  [ioslib] Autoselected Xcode: 7.2.1
-[TRACE]  [ioslib] Removing old log file: /Users/rizkiwisnuaji/Library/Developer/CoreSimulator/Devices/B07A9A35-6669-49AC-9FA2-0BAF98AF7385/data/Containers/Data/Application/56C3D867-5B06-4DB5-ACB5-66AA2EF16D98/Documents/b1c13189-1482-4851-9666-7ba3d3444fe8.log
-[TRACE]  [ioslib] Tailing iPhone 6s Plus Simulator system log: /Users/rizkiwisnuaji/Library/Logs/CoreSimulator/B07A9A35-6669-49AC-9FA2-0BAF98AF7385/system.log
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown B07A9A35-6669-49AC-9FA2-0BAF98AF7385
-[TRACE]  [ioslib] iPhone 6s Plus Simulator was already shutdown
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID B07A9A35-6669-49AC-9FA2-0BAF98AF7385
-[TRACE]  [ioslib] iPhone 6s Plus Simulator started
+[TRACE]  [ioslib] Tailing iPhone 4s Simulator system log: /Users/rizkiwisnuaji/Library/Logs/CoreSimulator/FC1C74D4-32B9-4932-B75A-9176E29377BE/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown FC1C74D4-32B9-4932-B75A-9176E29377BE
+[TRACE]  [ioslib] iPhone 4s Simulator was already shutdown
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID FC1C74D4-32B9-4932-B75A-9176E29377BE
+[TRACE]  [ioslib] iPhone 4s Simulator started
 [TRACE]  [ioslib] Running: osascript "/Users/rizkiwisnuaji/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
-[TRACE]  [ioslib] iPhone 6s Plus Simulator successfully focused
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install B07A9A35-6669-49AC-9FA2-0BAF98AF7385 /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app
+[TRACE]  [ioslib] iPhone 4s Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install FC1C74D4-32B9-4932-B75A-9176E29377BE /Users/rizkiwisnuaji/Desktop/PROJECT/MOBILE/Workspace/titaniumkoo/build/iphone/build/Products/Debug-iphonesimulator/titaniumkoo.app
 [TRACE]  [ioslib] App installed
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch B07A9A35-6669-49AC-9FA2-0BAF98AF7385 com.comestoarra.titaniumkoo
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch FC1C74D4-32B9-4932-B75A-9176E29377BE com.comestoarra.titaniumkoo
 [TRACE]  [ioslib] App launched
-[TRACE]  [titaniumkoo] assertion failed: 15D21 13C75: libxpc.dylib + 58018 [3E9AE163-9A95-35D3-BA2C-2E7144498580]: 0x7d
-[TRACE]  [ioslib] Found application log file: /Users/rizkiwisnuaji/Library/Developer/CoreSimulator/Devices/B07A9A35-6669-49AC-9FA2-0BAF98AF7385/data/Containers/Data/Application/B545B2BC-CFD0-45AC-BAC2-68D9EEF0F2D5/Documents/b1c13189-1482-4851-9666-7ba3d3444fe8.log
+[TRACE]  [titaniumkoo] assertion failed: 15D21 13C75: libxpc.dylib + 71630 [60B4AA4E-F817-3C94-B4DA-0620CC9847B6]: 0x7d
+[TRACE]  [ioslib] Found application log file: /Users/rizkiwisnuaji/Library/Developer/CoreSimulator/Devices/FC1C74D4-32B9-4932-B75A-9176E29377BE/data/Containers/Data/Application/F3BD4B17-F45B-4627-B20F-2ABB28C426C0/Documents/b1c13189-1482-4851-9666-7ba3d3444fe8.log
