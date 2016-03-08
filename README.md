@@ -1,8 +1,8 @@
-# Titaniumkoo
+#Titaniumkoo
 
-## Basic news feed application built with titanium appcelerator classic (IOS, Android)
+##Basic news feed application built with titanium appcelerator classic (IOS, Android)
 
-### Requirements :
+###Requirements :
 
 1. Titanium SDK.
 2. Titanium Appceleratorl cli.
