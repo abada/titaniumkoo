@@ -1,21 +1,18 @@
-/**
- * This file may not be redistributed in whole or significant part.
- * ---------------- THIS IS NOT FREE SOFTWARE ----------------
- *
- *
- * @file        database.js
- * @package     CBN Mobile Feed Reader
- * @company     Comestoarra Labs <labs@comestoarra.com>
- * @programmer  Rizki Wisnuaji, drg., M.Kom. <rizkiwisnuaji@comestoarra.com>
- * @copyright   2016 PT. Comestoarra Bentarra Noesantarra. All Rights Reserved.
- * @license     https://comestoarra.com/license
- * @version     Release: @1.0@
- * @framework   http://appcelerator.com
- *
- *
- * ---------------- THIS IS NOT FREE SOFTWARE ----------------
- * This file may not be redistributed in whole or significant part.
- **/
+/*
+| ============================================================================================================ |
+|   kkk      kkk      ooooo       dddddddd         eeeeeeeeee   kkk      kkk      ooooo            ooooo       |
+|   kkk     kkk     ooooooooo     ddddddddddd      eeeeeeeeee   kkk     kkk     ooooooooo        ooooooooo     | 
+|   kkk    kkk     ooo     ooo    ddd      ddd     eee          kkk    kkk     ooo     ooo      ooo     ooo    |
+|   kkk   kkk     oooo     oooo   ddd       ddd    eee          kkk   kkk     oooo     oooo    oooo     oooo   |
+|   kkk  kkk      oooo     oooo   ddd        ddd   eee          kkk  kkk      oooo     oooo    oooo     oooo   |
+|   kkkkkkkk      oooo     oooo   ddd        ddd   eeeeeeeeee   kkkkkkkk      oooo     oooo    oooo     oooo   |
+|   kkk  kkk      oooo     oooo   ddd        ddd   eee          kkk  kkk      oooo     oooo    oooo     oooo   |
+|   kkk   kkk     oooo     oooo   ddd       ddd    eee          kkk   kkk     oooo     oooo    oooo     oooo   |
+|   kkk    kkk     ooo     ooo    ddd      ddd     eee          kkk    kkk     ooo     ooo      ooo     ooo    |
+|   kkk     kkk     ooooooooo     dddddddddd       eeeeeeeeee   kkk     kkk     ooooooooo        ooooooooo     |
+|   kkk      kkk      ooooo       ddddddd          eeeeeeeeee   kkk      kkk      ooooo            ooooo       |
+| ============================================================================================================ |
+*/
 
 //create an instance of a database
 module.exports = (function() {
